@@ -109,7 +109,7 @@ function initialize() {
   }
 
   // selectProducts() Takes the group of products selected by selectCategory(), and further
-  // filters them by the tnered search term (if one has bene entered)
+  // filters them by the entered search term (if one has been entered)
   function selectProducts() {
     // If no search term has been entered, just make the finalGroup array equal to the categoryGroup
     // array — we don't want to filter the products further — then run updateDisplay().
